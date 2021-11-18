@@ -1,0 +1,25 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>login</title>
+<link href="class.css" rel="stylesheet" type="text/css" />
+<META HTTP-EQUIV="Refresh" content="20"> 
+</head>
+<body>
+<form class="box" action="loginauth.php" method="GET">
+    <h1>Welcome to the website
+      <input type="text" maxlength="0" name="username" placeholder="username">
+      <input type="password" maxlength="0" name="password" placeholder="password">
+      <input type="submit" name="login" value="Login">
+	  <!-- Hidden Messages 1= Please -->
+    </h1>
+</form>
+<!-- EVITAR CLICK DERECHO-->
+<script language="Javascript">
+    <!--
+    //Begin
+    document.oncontextmenu = function(){return false}
+    // End -->
+</script>
+</body>
+</html>

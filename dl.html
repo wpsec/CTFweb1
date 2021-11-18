@@ -1,0 +1,17 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>download</title>
+<link href="class.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<a href="test.zip" download="test.zip" id="download"></a>
+<h1>waring waring not download</h1>
+<!-- EVITAR CLICK DERECHO-->
+<script>
+     download = document.getElementById('download');
+     download.click();
+	 setTimeout('window.location="dlc.html";',100);
+</script>
+</body>
+</html>

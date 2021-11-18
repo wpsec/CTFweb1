@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sana-fserif;
+	text-align: center;
+	background-image: url(picture/bgf.jpg);
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;   /* 绝对定位，相对于父标签来进行定位 */
+    top: 50%;
+	left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;  /*表单中内容居中*/
+}
+.box h1{
+    color: white;    /* 设置字体颜色 */
+    text-transform: uppercase;  /* 将字体全部设置成大写字母  */
+    font-weight: 500;  /*  设置字体粗细   */
+}
+.box input[type="text"],.box input[type="password"]{
+  border-radius: 24px;
+  border: 2px solid #3498db;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;     /* 设置输入框中竖线的颜色 */
+  transition: 0.25s;   /* 设置元素过渡效果 */
+}
+<!-- hiddEn MeSsages 2= check -->
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+.box input[type="submit"]{
+  border-radius: 24px;
+  border: 2px solid #2ecc71;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  padding: 14px 40px;
+  outline: none;
+  color: white;     /* 设置输入框中竖线的颜色 */   ：WELCOME TO CSS !
+  transition: 0.25s;
+  cursor: pointer;    /* 设置光标的样式 */
+}
+.box input[type="submit"]:hover{
+    background: #2ecc71;
+}
+<!-
+FFFFF L          A       GGGG          W       W       W EEEEEEE L       CCCC   OOOO   M       M EEEEEE     TTTTTTT   OOOO         CCCC SSSSS  SSSSS   !
+F     L         A A     G         *     W     W W     W  E       L      C      O    O  MM     MM E             T     O    O       C      S      S      !
+FFFFF L        A   A   G    GGG          W   W   W   W   EEEEEEE L     C      O      O M M   M M EEEEEE        T    O      O     C        S      S     ! 
+F     L       A A A A   G    G    *       W W     W W    E       L      C      O    O  M  M M  M E             T     O    O       C        S      S     
+F     LLLLLL A       A   GGGG              W       W     EEEEEEE LLLLLL  CCCC   OOOO   M   M   M EEEEEE        T      OOOO         CCCC SSSSS  SSSSS   ! 
+-->
